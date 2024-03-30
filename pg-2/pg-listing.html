@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>new pg</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/css/Alumni%20Sans%20Inline%20One.css" />
+    <link rel="stylesheet" href="/assets/css/Amarante.css" />
+    <link rel="stylesheet" href="/assets/css/Amiko.css" />
+    <link rel="stylesheet" href="/assets/css/Montserrat.css" />
+    <link rel="stylesheet" href="/assets/css/Open%20Sans.css" />
+    <link rel="stylesheet" href="/assets/css/Roboto.css" />
+    <link rel="stylesheet" href="/assets/css/Navbar-Centered-Links-icons.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-body py-3 ">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#"><img src="./assets/img/apnaliving-logo.jpg"
+                    width="132" height="60" /></a><button data-bs-toggle="collapse" class="navbar-toggler"
+                data-bs-target="#navcol-3">
+                <span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navcol-3">
+                <form class="d-flex mx-auto w-75"> <!-- Increase the width to 75% -->
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+                <ul class="navbar-nav mx-auto m-3">
+                    <li>
+                        <button class="btn btn-primary btn-xxl login-button" type="button">Log in</button>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    <!-- fitler buttons -->
+    <div class="filter-section">
+        <div class="filter-group">
+            <h3>Locality</h3>
+            <div class="dropdown">
+                <button class="dropdown-btn">Select Locality</button>
+                <div class="dropdown-content">
+                    <a href="#">Shah Pur</a>
+                    <a href="#">Prahalad Nagar</a>
+                    <a href="#">Makkarba</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="filter-group">
+            <h3>Budget</h3>
+            <div class="budget-range">
+                <input type="range" min="5000" max="50000" value="10000" class="budget-slider" id="budgetSlider">
+                <div class="budget-value">
+                    <span id="budgetValue">10000</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="filter-group">
+            <h3>Gender</h3>
+            <div class="gender-btns">
+                <button class="gender-btn active">Male</button>
+                <button class="gender-btn">Female</button>
+            </div>
+        </div>
+
+        <div class="filter-group">
+            <h3>Occupancy</h3>
+            <div class="occupancy-btns">
+                <button class="occupancy-btn">Single</button>
+                <button class="occupancy-btn">Double</button>
+                <button class="occupancy-btn">Triple</button>
+                <button class="occupancy-btn">Quadruple</button>
+                <button class="occupancy-btn">Dorm</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- pg list -->
+    <div class="all-pg-list">
+        <!-- pg1 -->
+        <div class="pg-details">
+            <div class="pg-image" >
+                <img src="./assets/img/ah-1.jpg" alt="pg1">
+            </div>
+            <div class="pg-detail-container">
+                <div class="pg-info">
+                    <div class="pg-name">
+                        <h2>Saudi House</h2>
+                        <h5>Shah pur</h5>
+                    </div>
+                    <div class="pg-gender">
+                        Male<br>
+                        <a href="#">view Location</a>
+                    </div>
+                </div>
+                <div class="servies">
+                    <ul>
+                        <li>Wifi</li>
+                        <li>Laundry</li>
+                        <li>Food</li>
+                        <li>Security</li>
+                        <li>Single</li>
+                    </ul>
+                </div>
+                <div class="pg-price">
+                    <div class="price">
+                        <h6>starts from</h6>
+                        <h2>₹ 5000 <span style="font-size:1rem;">/mo*</span></h2>
+                    </div>
+                    <div class="pg-inqury">
+                        <button id="button1">SCHEDULE A VISIT</button>
+                        <button id="button2">REQUEST A CALLBACK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- pg2 -->
+        <div class="pg-details">
+            <div class="pg-image" >
+                <img src="./assets/img/ah-2.jpg" alt="pg1">
+            </div>
+            <div class="pg-detail-container">
+                <div class="pg-info" >
+                    <div class="pg-name">
+                        <h2>Stanza living</h2>
+                        <h5>prahalad nagar</h5>
+                    </div>
+                    <div class="pg-gender">
+                        Male<br>
+                        <a href="#">view Location</a>
+                    </div>
+                </div>
+                <div class="servies">
+                    <ul>
+                        <li>Wifi</li>
+                        <li>Food</li>
+                        <li>Security</li>
+                        <li>Single</li>
+                        <li>double</li>
+                    </ul>
+                </div>
+                <div class="pg-price">
+                    <div class="price">
+                        <h6>starts from</h6>
+                        <h2>₹ 8000 <span style="font-size:1rem;">/mo*</span></h2>
+                    </div>
+                    <div class="pg-inqury">
+                        <button id="button1">SCHEDULE A VISIT</button>
+                        <button id="button2">REQUEST A CALLBACK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- pg3 -->
+        <div class="pg-details">
+            <div class="pg-image" >
+                <img src="./assets/img/ah-3.jpg" alt="pg1">
+            </div>
+            <div class="pg-detail-container">
+                <div class="pg-info">
+                    <div class="pg-name">
+                        <h2>Apna House</h2>
+                        <h5>Football Ground</h5>
+                    </div>
+                    <div class="pg-gender">
+                        Female<br>
+                        <a href="#">view Location</a>
+                    </div>
+                </div>
+                <div class="servies">
+                    <ul>
+                        <li>Wifi</li>
+                        <li>Food</li>
+                        <li>Security</li>
+                        <li>Single</li>
+                        <li>Double</li>
+                        <li>Drom</li>
+                    </ul>
+                </div>
+                <div class="pg-price">
+                    <div class="price">
+                        <h6>starts from</h6>
+                        <h2>₹ 6000 <span style="font-size:1rem;">/mo*</span></h2>
+                    </div>
+                    <div class="pg-inqury">
+                        <button id="button1">SCHEDULE A VISIT</button>
+                        <button id="button2">REQUEST A CALLBACK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- pg4 -->
+        <div class="pg-details">
+            <div class="pg-image">
+                <img src="./assets/img/bang-1.jpeg" alt="pg1">
+            </div>
+            <div class="pg-detail-container">
+                <div class="pg-info" >
+                    <div class="pg-name">
+                        <h2>MatruChaya</h2>
+                        <h5>Kankariya</h5>
+                    </div>
+                    <div class="pg-gender">
+                        Male<br>
+                        <a href="#">view Location</a>
+                    </div>
+                </div>
+                <div class="servies">
+                    <ul>
+                        <li>Food</li>
+                        <li>Security</li>
+                        <li>Single</li>
+                        <li>double</li>
+                    </ul>
+                </div>
+                <div class="pg-price">
+                    <div class="price">
+                        <h6>starts from</h6>
+                        <h2>₹ 5500 <span style="font-size:1rem;">/mo*</span></h2>
+                    </div>
+                    <div class="pg-inqury">
+                        <button id="button1">SCHEDULE A VISIT</button>
+                        <button id="button2">REQUEST A CALLBACK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- pg5 -->
+        <div class="pg-details">
+            <div class="pg-image" >
+                <img src="./assets/img/bang-3.jpeg" alt="pg1">
+            </div>
+            <div class="pg-detail-container">
+                <div class="pg-info" style="float: right;">
+                    <div class="pg-name">
+                        <h2>Boston House </h2>
+                        <h5>South Bopal</h5>
+                    </div>
+                    <div class="pg-gender">
+                        Male<br>
+                        <a href="#">view Location</a>
+                    </div>
+                </div>
+                <div class="servies">
+                    <ul>
+                        <li>Wifi</li>
+                        <li>Laundry</li>
+                        <li>Food</li>
+                        <li>Security</li>
+                        <li>Single</li>
+                        <li>Double</li>
+
+                    </ul>
+                </div>
+                <div class="pg-price">
+                    <div class="price">
+                        <h6>starts from</h6>
+                        <h2>₹ 5000 <span style="font-size:1rem;">/mo*</span></h2>
+                    </div>
+                    <div class="pg-inqury">
+                        <button id="button1">SCHEDULE A VISIT</button>
+                        <button id="button2">REQUEST A CALLBACK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- pg5 -->
+        <div class="pg-details">
+            <div class="pg-image">
+                <img src="./assets/img/jai-2.jpeg" alt="pg1">
+            </div>
+            <div class="pg-detail-container">
+                <div class="pg-info" >
+                    <div class="pg-name">
+                        <h2>Rivera East</h2>
+                        <h5>Vastral</h5>
+                    </div>
+                    <div class="pg-gender">
+                        Male<br>
+                        <a href="#">view Location</a>
+                    </div>
+                </div>
+                <div class="servies">
+                    <ul>
+                        <li>Wifi</li>
+                        <li>Security</li>
+                        <li>Single</li>
+                    </ul>
+                </div>
+                <div class="pg-price">
+                    <div class="price">
+                        <h6>starts from</h6>
+                        <h2>₹ 4000 <span style="font-size:1rem;">/mo*</span></h2>
+                    </div>
+                    <div class="pg-inqury">
+                        <button id="button1">SCHEDULE A VISIT</button>
+                        <button id="button2">REQUEST A CALLBACK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Footer -->
+<footer class="bg-primary text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <h5>About Us</h5>
+          <p>Apna Living is a professional PG (Paying Guest) accommodation listing platform, providing a comprehensive directory of quality living spaces for students, professionals, and families.</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Home</a></li>
+            <li><a href="#" class="text-white">PG Listings</a></li>
+            <li><a href="#" class="text-white">About Us</a></li>
+            <li><a href="#" class="text-white">Contact Us</a></li>
+            <li><a href="#" class="text-white">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h5>Contact Us</h5>
+          <address>
+            <strong>Apna Living</strong><br>
+            123 Vastral<br>
+            Ahmedabad, Gujarat 382418<br>
+            <abbr title="Phone">P:</abbr> (+91) 7778094397
+          </address>
+          <div class="social-icons">
+            <a href="#" class="text-white me-2"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="#" class="text-white me-2"><i class="fab fa-twitter fa-lg"></i></a>
+            <a href="#" class="text-white me-2"><i class="fab fa-instagram fa-lg"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="bg-light">
+      <div class="text-center">
+        <p>&copy; 2024 Apna Living. All rights reserved.</p>
+      </div>
+    </div>
+   </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
